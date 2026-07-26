@@ -4,7 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marco-t%C3%BAlio-9125ab132/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:tmarco783@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-08080F?style=flat&logo=vercel&logoColor=white)](https://tmarcorf.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-08080F?style=flat&logo=vercel&logoColor=white)](https://www.tmarcorf.com.br/)
 
 ---
 
