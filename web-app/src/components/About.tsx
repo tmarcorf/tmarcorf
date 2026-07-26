@@ -1,4 +1,4 @@
-const yearsOfExperience = new Date().getFullYear() - 2019;
+import { yearsOfExperience } from "../constants/info";
 
 export function About() {
   return (

@@ -101,6 +101,13 @@ body {
   max-width: var(--max-width);
   margin: 0 auto;
   min-height: 100svh;
+  padding: 0 1rem;
+}
+
+@media (max-width: 639px) {
+  #root {
+    padding: 0 0.5rem;
+  }
 }
 
 /* ── Selection ── */
@@ -184,10 +191,22 @@ a:hover {
 }
 
 /* ── Responsive base adjustments ── */
-@media (max-width: 768px) {
+
+/* Tablet adjustments */
+@media (max-width: 1024px) {
   :root {
-    --space-section: 3rem;
-    --space-block: 1.75rem;
+    --space-section: 3.5rem;
+    --space-block: 2rem;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 639px) {
+  :root {
+    --space-section: 2.5rem;
+    --space-block: 1.5rem;
+    --space-stack: 1rem;
+    --space-inset: 1.25rem;
   }
 
   body {

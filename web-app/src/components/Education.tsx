@@ -11,7 +11,7 @@ export function Education() {
             <div className="education__period">Superior completo</div>
           </div>
 
-          <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+          <div className="card language__card">
             <div>
               <div className="language__name">Português</div>
               <div className="language__level">
