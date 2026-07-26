@@ -2,7 +2,7 @@ import { yearsOfExperience } from '../constants/info';
 import { useTypewriter } from '../hooks/useTypewriter';
 
 const TERMINAL_LINES = [
-  '> initializing portfolio...',
+  '> initializing resume...',
   '> loading profile // user: "tmarcorf"',
   '> status: READY',
 ];
