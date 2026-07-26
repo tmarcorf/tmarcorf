@@ -1,3 +1,5 @@
+const yearsOfExperience = new Date().getFullYear() - 2019;
+
 export function About() {
   return (
     <section className="section" id="about">
@@ -8,7 +10,7 @@ export function About() {
           <div className="about__text">
             <p>
               Desenvolvedor de Software com mais de{' '}
-              <span className="about__highlight">7 anos de experiência</span> em
+              <span className="about__highlight">{yearsOfExperience} anos de experiência</span> em
               tecnologias como .NET, C#, ASP.NET Core, SQL Server, Docker, Git e
               práticas de Clean Code.
             </p>
@@ -47,7 +49,7 @@ export function About() {
                 {"\n"}
                 {"    "}
                 <span className="kw">public int</span>{" "}
-                Experience =&gt; <span className="num">7</span>;{" "}
+                Experience =&gt; <span className="num">{yearsOfExperience}</span>;{" "}
                 <span className="cmt">// years</span>
                 {"\n\n"}
                 {"    "}
