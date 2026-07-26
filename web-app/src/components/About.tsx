@@ -1,22 +1,4 @@
 export function About() {
-  const codeSnippet = `<span class="about__code kw">public class</span> <span class="about__code type">Developer</span>
-{
-    <span class="about__code kw">public string</span> Name
-        => <span class="about__code str">"Marco Túlio"</span>;
-
-    <span class="about__code kw">public string</span> Role
-        => <span class="about__code str">".NET Developer"</span>;
-
-    <span class="about__code kw">public int</span> Experience
-        => <span class="about__code num">7</span>; <span class="about__code cmt">// years</span>
-
-    <span class="about__code kw">public string</span>[] Stack
-        => [ <span class="about__code str">"C#"</span>, <span class="about__code str">".NET"</span>,
-             <span class="about__code str">"SQL Server"</span>,
-             <span class="about__code str">"PostgreSQL"</span>,
-             <span class="about__code str">"Docker"</span> ];
-}`;
-
   return (
     <section className="section" id="about">
       <div className="section__inner">
@@ -44,9 +26,59 @@ export function About() {
           </div>
 
           <div className="about__code-block">
-            <div className="about__code-header">Developer.cs</div>
+            <div className="about__code-header">
+              <span className="about__code-dots" aria-hidden="true" />
+              <span>Developer.cs</span>
+            </div>
             <pre className="about__code">
-              <code dangerouslySetInnerHTML={{ __html: codeSnippet }} />
+              <code>
+                <span className="kw">public class</span>{" "}
+                <span className="type">Developer</span>
+                {"\n"}
+                {"{"}
+                {"\n"}
+                {"    "}
+                <span className="kw">public string</span>{" "}
+                Name =&gt; <span className="str">"Marco Túlio"</span>;
+                {"\n"}
+                {"    "}
+                <span className="kw">public string</span>{" "}
+                Role =&gt; <span className="str">".NET Developer"</span>;
+                {"\n"}
+                {"    "}
+                <span className="kw">public int</span>{" "}
+                Experience =&gt; <span className="num">7</span>;{" "}
+                <span className="cmt">// years</span>
+                {"\n\n"}
+                {"    "}
+                <span className="kw">public string</span>[] Stack =&gt;
+                {"\n"}
+                {"    "}
+                [
+                {"\n"}
+                {"        "}
+                <span className="str">"C#"</span>,
+                {"\n"}
+                {"        "}
+                <span className="str">".NET"</span>,
+                {"\n"}
+                {"        "}
+                <span className="str">"ASP.NET Core"</span>,
+                {"\n"}
+                {"        "}
+                <span className="str">"SQL Server"</span>,
+                {"\n"}
+                {"        "}
+                <span className="str">"PostgreSQL"</span>,
+                {"\n"}
+                {"        "}
+                <span className="str">"Docker"</span>
+                {"\n"}
+                {"    "}
+                ];
+                {"\n"}
+                {"}"}
+              </code>
             </pre>
           </div>
         </div>

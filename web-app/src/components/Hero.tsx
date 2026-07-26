@@ -39,7 +39,7 @@ export function Hero() {
 
       <div className="hero__meta">
         <span className="badge badge--accent">7+ anos de experiência</span>
-        <span className="badge badge--highlight">C# • .NET • ASP.NET Core • TypeScript +</span>
+        <span className="badge badge--highlight">C# • .NET • ASP.NET Core • TypeScript</span>
       </div>
 
       <div className="hero__links">

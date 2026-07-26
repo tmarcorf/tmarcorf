@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32">
+      <stop offset="0%" stop-color="#12121E"/>
+      <stop offset="100%" stop-color="#08080F"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#bg)"/>
+  <!-- Angle brackets </> -->
+  <text x="16" y="22" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="17" font-weight="700" fill="#A78BFA" text-anchor="middle">&lt;/&gt;</text>
+</svg>

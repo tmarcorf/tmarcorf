@@ -1,11 +1,11 @@
 const skillGroups = [
   {
     title: 'Linguagens & Frameworks',
-    skills: ['C#', '.NET', 'ASP.NET Core', 'VB.NET', 'JavaScript', 'HTML', 'CSS', 'JQuery'],
+    skills: ['C#', '.NET', 'ASP.NET Core', 'TypeScript', 'Angular', 'React'],
   },
   {
     title: 'Bancos de Dados',
-    skills: ['SQL Server', 'PostgreSQL', 'Oracle', 'MongoDB', 'Entity Framework'],
+    skills: ['SQL Server', 'PostgreSQL', 'Oracle', 'MongoDB', 'Redis', 'Entity Framework'],
   },
   {
     title: 'DevOps & Ferramentas',
@@ -13,7 +13,7 @@ const skillGroups = [
   },
   {
     title: 'Práticas & Arquitetura',
-    skills: ['SOLID', 'DRY', 'Clean Architecture', 'Code Review', 'Microsserviços'],
+    skills: ['SOLID', 'DRY', 'Clean Architecture', 'Code Review', 'Microsserviços', 'CI/CD'],
   },
 ];
 
