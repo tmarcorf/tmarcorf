@@ -8,6 +8,7 @@ import { Education } from './components/Education'
 import { Courses } from './components/Courses'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
+import { Analytics } from "@vercel/analytics/react"
 
 const navSections = [
   { id: 'about', label: 'About' },
@@ -32,6 +33,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Analytics />
     </>
   )
 }
